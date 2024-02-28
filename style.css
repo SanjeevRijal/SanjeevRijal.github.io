@@ -1,0 +1,84 @@
+body,html{
+    background-color: rgb(219, 224, 225);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-family:roboto;    
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 4px lightgray;
+    padding:20px;
+    width: 400px;
+
+}
+.container *{
+    background-color: white;
+}
+
+.button{
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    width:60px
+}
+
+.input{
+    border-color: lightblue;
+    border-radius: 5px;
+    width:250px
+}
+
+.itemClass{
+    display:flex;
+    justify-content: space-between;
+    width:70%;
+    margin-top: 20px;
+    padding-left: 12%;
+    padding-right: 10%;
+    font-weight: 500;
+    font-size: 18px;
+
+    
+}
+
+.DleEdt button{
+    border: none;
+    padding:0px;
+    cursor: pointer;
+    width:20px;  
+    
+}
+
+.edit-button{
+    display: none;
+    cursor: pointer;
+    
+}
+
+.add-button{
+    cursor: pointer;
+
+}
+
+
+.clearBtn{
+    border:none;
+    background-color: white;
+    color:lightpink;
+    cursor: pointer;
+    margin-top:20px;
+
+}
+
+.addMessage{
+    font-weight: 80;
+    font-size: large;
+    color: lightslategray;
+    display: none;
+}
