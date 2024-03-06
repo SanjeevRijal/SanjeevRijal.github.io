@@ -5,7 +5,8 @@ const message = document.querySelector(".message");
 const inputField = document.querySelector(".input");
 const clearBtn = document.querySelector(".clearBtn");
 const addMessage = document.querySelector(".addMessage");
-localStorage.setItem('groceryList');
+let groceryList=[];
+localStorage.setItem("groceryList", JSON.stringify(groceryList));
 
 const storedList = localStorage.getItem("groceryList"); //get grocery from local storage
 
@@ -15,11 +16,9 @@ if (storedList) {
   groceryList = JSON.parse(storedList);
   emptyListMessage();
   createHtml();
-} else{
+} elsegroceryList=[]groceryList=[]
   groceryList=[];
-}
-
-console.log(groceryList)
+}
 
 
 
