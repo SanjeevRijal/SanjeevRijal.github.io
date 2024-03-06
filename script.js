@@ -7,7 +7,7 @@ const clearBtn = document.querySelector(".clearBtn");
 const addMessage = document.querySelector(".addMessage");
 const storedList = localStorage.getItem("groceryList"); //get grocery from local storage
 
-
+let groceryList = [];
 
 if (storedList) {
   groceryList = JSON.parse(storedList);
