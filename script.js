@@ -16,7 +16,7 @@ if (storedList) {
   createHtml();
 }
 
-
+emptyListMessage()
 
 addButton.addEventListener("click", addToList);
 
